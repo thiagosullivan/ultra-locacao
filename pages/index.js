@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AboutUs from '../components/About'
 import Header from '../components/Header'
 import HomeSlider from '../components/HomeSlider'
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <main className="">
         <HomeSlider />
+        <AboutUs />
       </main>
 
       <footer className="">
