@@ -16,14 +16,14 @@ function HomeSlider() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/home-banner-1.jpeg"
+                        src="https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-1.jpg"
                         alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://raw.githubusercontent.com/thiagosullivan/alemao-futebol/main/assets/home-banner-2.jpeg"
+                        src="https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-1.jpg"
                         alt="Second slide"
                     />
                 </Carousel.Item>
