@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import AboutUs from '../components/About'
+import Equips from '../components/Equips'
 import Header from '../components/Header'
 import HomeSlider from '../components/HomeSlider'
 import Services from '../components/ServicesSection'
@@ -17,6 +18,7 @@ export default function Home() {
         <HomeSlider />
         <AboutUs />
         <Services />
+        <Equips />
       </main>
 
       <footer className="">
