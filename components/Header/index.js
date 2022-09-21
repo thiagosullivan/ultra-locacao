@@ -15,18 +15,18 @@ function Header() {
             <nav>
                 <Link href="/">Home</Link>
                 <Link href="/">Equipamentos</Link>
-                <Link href="/">Quem Somos</Link>
+                <Link href="/#about">Quem Somos</Link>
                 <Link href="/">Serviços</Link>
                 <Link href="/">Contato</Link>
             </nav>
             <HeaderSocialMedia>
-                <a href="/">
+                <a href="https://instagram.com" target="_blank"rel="noopener noreferrer">
                     <FaInstagram />
                 </a>
-                <a href="/">
+                <a href="https://facebook.com" target="_blank"rel="noopener noreferrer">
                     <FaFacebookF />
                 </a>
-                <a href="/">
+                <a href="https://whatsapp.com" target="_blank"rel="noopener noreferrer">
                     <FaWhatsapp />
                 </a>
             </HeaderSocialMedia>
