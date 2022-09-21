@@ -13,21 +13,21 @@ function HomeSlider() {
   return (
     <HomeSliderContainer>
         <Carousel interval={3000} activeIndex={index} onSelect={handleSelect} controls={false}>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-1.jpg"
-                        alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-1.jpg"
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-            </Carousel>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-1.jpg"
+                    alt="First slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-1.jpg"
+                    alt="Second slide"
+                />
+            </Carousel.Item>
+        </Carousel>
     </HomeSliderContainer>
   )
 }

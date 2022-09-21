@@ -12,7 +12,7 @@ export default createGlobalStyle`
       height: 5px;
     }
     ::-webkit-scrollbar-thumb {
-      background: ${({ theme }) => theme.primary};
+      background: ${({theme}) => theme.third};
       border-radius: 5px;
     }
     ::-webkit-scrollbar-track{
@@ -43,5 +43,8 @@ export default createGlobalStyle`
   .disableScroll {
     height: 100%;
     overflow-y: hidden;
+  }
+  p {
+    margin: 0;
   }
 `;
