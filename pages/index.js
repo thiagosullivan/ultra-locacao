@@ -2,6 +2,7 @@ import Head from 'next/head'
 import AboutUs from '../components/About'
 import Header from '../components/Header'
 import HomeSlider from '../components/HomeSlider'
+import Services from '../components/ServicesSection'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="">
         <HomeSlider />
         <AboutUs />
+        <Services />
       </main>
 
       <footer className="">

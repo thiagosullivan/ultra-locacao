@@ -10,7 +10,7 @@ function Header() {
     <HeaderContainer>
         <div className='header__content'>
             <Link href="/">
-                <Image src={LogoHeader} width={165} height={70}/>
+                <Image src={LogoHeader} width={165} height={70} alt="Logo"/>
             </Link>
             <nav>
                 <Link href="/">Home</Link>
