@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa';
-import LogoHeader from '../../assets/ultra-logo.jpeg';
+import LogoHeader from '../../assets/ultra-logo.png';
 import { HeaderContainer, HeaderSocialMedia } from './style';
 
 function Header() {
