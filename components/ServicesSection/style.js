@@ -60,6 +60,7 @@ export const OptionsServices = styled.div`
     .service__img {
         background-color: ${({theme}) => theme.secondary};
         padding: 1.43rem 4.68rem;
+        width: 100%;
     }
 
     .service__txt {

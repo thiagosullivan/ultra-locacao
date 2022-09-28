@@ -52,17 +52,28 @@ export const PriceCard = styled.div`
     .price__bottom {
         border-top: 1px solid ${({theme}) => theme.secondary};
         width: 100%;
-        padding-top: 1.25rem;
-        padding-bottom: 1.8rem;
+        padding: 1.25rem 1.8rem 1.8rem;
 
+        p {
+            color: ${({theme}) => theme.white};
+            font-family: 'Kanit', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+            min-height: 130px;
+        }
         ul {
-            text-align: center;
             padding-left: 0;
-            margin-bottom: 2rem;
+            min-height: 130px;
 
+            p {
+                min-height: unset;
+            }
+            
             li {
                 color: ${({theme}) => theme.white};
                 font-family: 'Kanit', sans-serif;
+                font-size: 1rem;
                 margin-bottom: 1rem;
                 font-weight: 300;
             }
