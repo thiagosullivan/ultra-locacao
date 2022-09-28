@@ -13,7 +13,6 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Ultra - Locação de Ultraformer</title>
-        <meta name="description" content="Ultra - Locação de Ultraformer" />
       </Head>
 
       <Header />
