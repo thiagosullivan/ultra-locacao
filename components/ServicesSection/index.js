@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
-import UltraIcon from '../../assets/icon-ultra.png';
+import iconOne from '../../assets/icon-1.png';
+import iconTwo from '../../assets/icon-2.png';
+import iconThree from '../../assets/icon-3.png';
+import iconFour from '../../assets/icon-4.png';
 import { OptionsServices, ServicesContainer } from './style';
 
 function Services() {
@@ -8,27 +11,47 @@ function Services() {
     <ServicesContainer>
         <div className='services__content'>
             <h3>Serviços</h3>
-            <h2>We Provide the Perfect Solution</h2>
+            <h2>Diferenciais na locação do Ultraformer III</h2>
 
             <div className='services__options'>
                 <OptionsServices>
-                    <Image src={UltraIcon} alt="Icon" width={100} height={100} />
-                    <p>Lorem ipsum</p>
+                    <div className='service__img'>
+                        <Image src={iconOne} alt="Icon" width={100} height={100} />
+                    </div>
+                    <div className='service__txt'>
+                        <h4>Seguro e Eficaz</h4>
+                        <p>Um dos mais modernos tratamentos.</p>
+                    </div>
                 </OptionsServices>
                 <OptionsServices>
-                    <Image src={UltraIcon} alt="Icon" width={100} height={100} />
-                    <p>Lorem ipsum</p>
+                    <div className='service__img'>
+                        <Image src={iconTwo} alt="Icon" width={100} height={100} />
+                    </div>
+                    <div className='service__txt'>
+                        <h4>Número de Sessões</h4>
+                        <p>Varia de 1 a 3 sessões, dependendo do planejamento individualizado</p>
+                    </div>
                 </OptionsServices>
                 <OptionsServices>
-                    <Image src={UltraIcon} alt="Icon" width={100} height={100} />
-                    <p>Lorem ipsum</p>
+                    <div className='service__img'>
+                        <Image src={iconThree} alt="Icon" width={100} height={100} />
+                    </div>
+                    <div className='service__txt'>
+                        <h4>Tempo da Sessão</h4>
+                        <p>O tempo médio de cada sessão é de aproximadamente 80 Minutos.</p>
+                    </div>
                 </OptionsServices>
                 <OptionsServices>
-                    <Image src={UltraIcon} alt="Icon" width={100} height={100} />
-                    <p>Lorem ipsum</p>
+                    <div className='service__img'>
+                        <Image src={iconFour} alt="Icon" width={100} height={100} />
+                    </div>
+                    <div className='service__txt'>
+                        <h4>Ganhos</h4>
+                        <p>De 5 a 10 mil em 1 dia de trabalho</p>
+                    </div>
                 </OptionsServices>
             </div>
-            <p>Etiam ut diam vestibulum, sagittis lorem id, volutpat quam. Etiam malesuada vel arcu et gravida. Etiam sed laoreet lorem, ut elementum ante. Sed scelerisque posuere urna at iaculis. Ut scelerisque enim sit amet dolor pulvinar, id faucibus leo ultricies. Duis consequat eu diam nec gravida. Etiam finibus blandit diam, ut viverra libero commodo ac. Mauris non libero id elit dictum ultricies at venenatis dolor. In rhoncus mauris nisi, nec imperdiet lorem lacinia in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec condimentum erat eu arcu euismod, et sodales mi interdum.</p>
+            <p>🤑 Aumente os ganhos de sua clínica, gerando ainda mais satisfação para suas clientes. Fale conosco e agende uma data para atendimento com o Ultraformer III. 🤔 Ainda não sabe como realizar procedimentos com o Ultraformer III? Não se preocupe, nós treinaremos você! Chame agora em nosso WhatsApp e tire todas as dúvidas. Para facilitar, o link está na bio. 😉</p>
         </div>
     </ServicesContainer>
   )
