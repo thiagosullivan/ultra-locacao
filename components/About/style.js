@@ -46,7 +46,7 @@ export const AboutUsContainer = styled.section`
         .about__div2 {
             display: flex;
             justify-content: flex-end;
-
+            margin-top: 6rem;
             .about__img1 {
                 margin-right: 1.87rem;
             }
@@ -55,7 +55,7 @@ export const AboutUsContainer = styled.section`
         .about__div3 {
             max-width: 1130px;
             width: 100%;
-            margin: 3.75rem auto 0;
+            margin: 3.75rem 0 0 auto;
 
             p {
                 text-align: justify;
