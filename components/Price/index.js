@@ -34,7 +34,7 @@ function Price() {
                 <h4>Aluguel Free</h4>
                 <p>Grátis*</p>
                 <div className='price__bottom'>
-                  <p>O Aluguel do período será gratuito se foram utilizados 1.000 &#40;um mil&#41; disparos</p>
+                  <p>O Aluguel do período será gratuito se forem utilizados 1.000 &#40;um mil&#41; disparos</p>
 
                   <a href="https://api.whatsapp.com/send?phone=5543984151977&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20loca%C3%A7%C3%A3o%20do%20Ultraformer%20III">Reservar Data</a>
                 </div>
