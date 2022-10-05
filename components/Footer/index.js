@@ -120,7 +120,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer__col4'>
-                    { loading ? <p>Carregando</p> : ''}
+                    {/* { loading ? <p>Carregando</p> : ''} */}
                     <form onSubmit={handleSubmit}>
                         <input
                             type="text"
