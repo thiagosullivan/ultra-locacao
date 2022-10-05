@@ -23,7 +23,7 @@ export const FooterContainer = styled.footer`
                     font-family: 'Kanit', sans-serif;
                     font-size: 0.87rem;
                     font-weight: 300;
-                    text-align: justify;
+                    text-align: left;
                     color: ${({theme}) => theme.white};
                     margin: 1rem 0;                  
                 }
@@ -143,6 +143,10 @@ export const FooterContainer = styled.footer`
                             color: ${({theme}) => theme.secondary};
                             padding: 0.5rem;
                         }
+
+                        &:focus {
+                            box-shadow: 0px 0px 10px #B8E815;
+                        }
                     }
                     textarea {
                         width: 100%;
@@ -159,6 +163,9 @@ export const FooterContainer = styled.footer`
                         &::placeholder {
                             color: ${({theme}) => theme.secondary};
                             padding: 0.5rem;
+                        }
+                        &:focus {
+                            box-shadow: 0px 0px 10px #B8E815;
                         }
                     }
                     button {
