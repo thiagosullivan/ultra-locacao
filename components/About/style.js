@@ -1,15 +1,20 @@
 import styled from "styled-components";
 
 export const AboutUsContainer = styled.section`
+    background: url('https://raw.githubusercontent.com/thiagosullivan/ultra-locacao/main/assets/banner-about.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
 
     .about__content {
         max-width: 1300px;
         width: 100%;
         margin: 0 auto;
         position: relative;
-        padding: 9.3rem 1rem;
+        padding: 11rem 1rem;
         
-        h2 {
+        /* h2 {
             font-family: 'Kanit', sans-serif;
             font-size: 7.5rem;
             line-height: 0.7;
@@ -26,7 +31,7 @@ export const AboutUsContainer = styled.section`
                 line-height: 0.7;
                 font-weight: 400;
             }
-        }
+        } */
 
         p {
             font-family: 'Kanit', sans-serif;
@@ -53,9 +58,12 @@ export const AboutUsContainer = styled.section`
         }
 
         .about__div3 {
-            max-width: 1130px;
+            max-width: 650px;
             width: 100%;
-            margin: 3.75rem 0 0 auto;
+            background-color: rgba(255,255,255,.7);
+            box-shadow: 0 2px 10px 2px rgba(0, 0, 0, .1);
+            padding: 2rem;
+            /* margin: 3.75rem 0 0 auto; */
 
             p {
                 text-align: justify;
