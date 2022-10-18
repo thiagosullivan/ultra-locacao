@@ -47,4 +47,7 @@ export default createGlobalStyle`
   p {
     margin: 0;
   }
+  .disableInput {
+    pointer-events: none;
+  }
 `;

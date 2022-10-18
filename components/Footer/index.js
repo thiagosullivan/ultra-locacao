@@ -22,7 +22,7 @@ function Footer() {
     const [ sent, setSent ] = useState(false);
 
     console.log(nome, email, phone, text)
-    console.log(sent, 'ANTES')
+    console.log(loading, 'LOADING')
 
     async function handleSubmit(event){
         event.preventDefault();
@@ -127,12 +127,14 @@ function Footer() {
                             placeholder='Nome'
                             onChange={({target}) => setNome(target.value)}
                             value={nome}
+                            className={`${loading ? 'disableInput ' : '' }`}
                         />
                         <input
                             type="email"
                             placeholder='E-mail'
                             onChange={({target}) => setEmail(target.value)}
                             value={email}
+                            className={`${loading ? 'disableInput ' : '' }`}
                         />
                         <MaskedInput
                             mask="(99) 99999-9999"
@@ -140,13 +142,18 @@ function Footer() {
                             placeholder='Telefone'
                             onChange={({target}) => setPhone(target.value)}
                             value={phone}
+                            className={`${loading ? 'disableInput ' : '' }`}
                         />
                         <textarea
                             placeholder='Mensagem'
                             onChange={({target}) => setText(target.value)}
                             value={text}
+                            className={`${loading ? 'disableInput ' : '' }`}
                         />
-                        <button type="submit">
+                        <button
+                            type="submit"
+                            className={`${loading ? 'disableInput ' : '' }`}
+                        >
                             { loading || sent ? '' : <span>Enviar</span>}
                             { sent ? <span>Enviado!</span> : '' }
                             { loading ? <Loader /> : ''}
