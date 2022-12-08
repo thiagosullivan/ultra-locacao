@@ -9,9 +9,7 @@ export default function PostPage({ post }){
   return (
     <div id="post__page">
       <Head>
-        {/* Primary Meta Tags */}
         <title>{post.title} | Ultra - Locação de Ultraformer</title>
-        <meta name="title" content={`${post.title} | Ultra - Locação de Ultraformer`}/>
       </Head>
 
       <Header />
