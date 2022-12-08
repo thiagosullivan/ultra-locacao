@@ -49,4 +49,9 @@ export const EquipsCards = styled.div`
         font-family: 'Kanit', sans-serif;
         text-align: justify;
     }
+
+    .equips__img {
+        border-radius: 20px;
+        overflow: hidden;
+    }
 `

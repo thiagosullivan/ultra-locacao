@@ -14,10 +14,11 @@ function Header() {
             </Link>
             <nav>
                 <Link href="/">Home</Link>
-                <Link href="/">Equipamentos</Link>
+                <Link href="/#equipamentos">Equipamentos</Link>
                 <Link href="/#about">Quem Somos</Link>
                 <Link href="/">Serviços</Link>
-                <Link href="/">Contato</Link>
+                <Link href="/blog">Blog</Link>
+                <Link href="/#contato">Contato</Link>
             </nav>
             <HeaderSocialMedia>
                 <a href="https://www.instagram.com/ultraformer_loc/" target="_blank"rel="noopener noreferrer">

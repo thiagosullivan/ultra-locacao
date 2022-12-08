@@ -2,11 +2,12 @@ import { darken } from "polished";
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-    
+    border-top: 3px solid ${({theme}) => theme.secondary};
 
     .footer__top {
         background-color: ${({theme}) => theme.primary};
         padding: 3.75rem 1rem;
+        box-shadow: 0 -10px 10px rgba(0,0,0,.2);
 
         .footer__content {
             max-width: 1300px;

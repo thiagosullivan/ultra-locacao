@@ -119,7 +119,7 @@ function Footer() {
                         <a href="tel:+5543984151977">&#40;43&#41; 98415-1977</a>
                     </div>
                 </div>
-                <div className='footer__col4'>
+                <div id="contato" className='footer__col4'>
                     {/* { loading ? <p>Carregando</p> : ''} */}
                     <form onSubmit={handleSubmit}>
                         <input

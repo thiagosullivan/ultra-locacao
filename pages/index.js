@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import AboutUs from '../components/About'
+import BlogHome from '../components/BlogHome'
 import Equips from '../components/Equips'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
@@ -8,8 +9,10 @@ import Loader from '../components/Loader'
 import Price from '../components/Price'
 import Services from '../components/ServicesSection'
 import Testimonial from '../components/Testimonial'
+import { getAllPosts } from '../lib/dato-cms'
 
-export default function Home() {
+export default function Home({posts}) {
+  console.log(posts, 'POSTAGENS')
   return (
     <div id="home">
       <Head>
@@ -24,10 +27,21 @@ export default function Home() {
         <Equips />
         <Price />
         <Testimonial />
+        <BlogHome posts={posts} />
       </main>
 
-      <Loader />
       <Footer />
     </div>
   )
+}
+
+export const getStaticProps = async () => {
+  const posts = await getAllPosts();
+
+  return {
+    props: {
+      posts: posts || []
+    },
+    revalidate: 5,
+  }
 }
