@@ -4,8 +4,8 @@ import Footer from '../../components/Footer';
 import { getAllPosts } from '../../lib/dato-cms';
 import BlogIndividual from '../../components/BlogIndividual';
 
-function PostPage({ post }){
-
+export default function PostPage({ post }){
+  
   return (
     <div id="post__page">
       <Head>
@@ -52,5 +52,3 @@ export const getStaticPaths = async () => {
     fallback: false,
   }
 }
-
-export default PostPage;
