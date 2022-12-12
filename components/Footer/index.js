@@ -21,9 +21,6 @@ function Footer() {
     const [ loading, setLoading ] = useState(false);
     const [ sent, setSent ] = useState(false);
 
-    console.log(nome, email, phone, text)
-    console.log(loading, 'LOADING')
-
     async function handleSubmit(event){
         event.preventDefault();
 
@@ -68,7 +65,6 @@ function Footer() {
     useEffect(() => {
         setTimeout(() => {
             setSent(false)
-            console.log(sent, 'DEPOIS')
         }, 3000);
     }, [sent])
 

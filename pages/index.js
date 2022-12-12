@@ -13,7 +13,7 @@ import Testimonial from '../components/Testimonial'
 import { getAllPosts } from '../lib/dato-cms'
 
 export default function Home({posts}) {
-  console.log(posts, 'POSTAGENS')
+  
   return (
     <div id="home">
       <Head>

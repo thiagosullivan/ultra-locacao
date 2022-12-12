@@ -46,23 +46,35 @@ function Header() {
         <div className='header__mobile'>
             <div>
                 <Link href="/">
-                    <Image src={LogoHeader} width={165} height={70} alt="Logo"/>
+                    <Image src={LogoHeader} width={135} height={40} alt="Logo"/>
                 </Link>
             </div>
             <div className='mobile__hamburguer' onClick={() => setOpenMenu(true)}>
                 <BiMenu />
             </div>
             <div className={`header__mobile__content ${ openMenu ? 'header__mobile__open' : '' }`}>
-                <div className='header__mobile__close' onClick={() => setOpenMenu(false)}>
+                <div className='header__mobile__close' onClick={() => setOpenMenu(!openMenu)}>
                     <BiX />
                 </div>
                 <nav>
-                    <Link onPointerEnter={() => setOpenMenu(false)} href="/">Home</Link>
-                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#equipamentos">Equipamentos</Link>
-                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#sobre">Quem Somos</Link>
-                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#servicos">Serviços</Link>
-                    <Link onPointerEnter={() => setOpenMenu(false)} href="/blog">Blog</Link>
-                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#contato">Contato</Link>
+                    <li onClick={() => setOpenMenu(!openMenu)}>
+                        <Link href="/">Home</Link>
+                    </li>
+                    <li onClick={() => setOpenMenu(!openMenu)}>
+                        <Link href="/#equipamentos">Equipamentos</Link>
+                    </li>
+                    <li onClick={() => setOpenMenu(!openMenu)}>
+                        <Link href="/#sobre">Quem Somos</Link>
+                    </li>
+                    <li onClick={() => setOpenMenu(!openMenu)}>
+                        <Link href="/#servicos">Serviços</Link>
+                    </li>
+                    <li onClick={() => setOpenMenu(!openMenu)}>
+                        <Link href="/blog">Blog</Link>
+                    </li>
+                    <li onClick={() => setOpenMenu(!openMenu)}>
+                        <Link href="/#contato">Contato</Link>
+                    </li>
                 </nav>
                 <HeaderSocialMedia>
                     <a href="https://www.instagram.com/ultraformer_loc/" target="_blank"rel="noopener noreferrer">

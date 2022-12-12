@@ -80,12 +80,16 @@ export const HeaderContainer = styled.header`
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin-top: 15%;
+                margin-top: 25%;
+
+                li {
+                    list-style: none;
+                    margin-bottom: 1.4rem;
+                }
 
                 a {
                     font-size: 1.4rem;
                     font-family: 'Kanit', sans-serif;
-                    margin-bottom: 1.4rem;
 
                     &:hover {
                         color: ${({theme}) => theme.secondary};
