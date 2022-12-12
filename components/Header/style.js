@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
     img {
         cursor: pointer;
     }
-    
+
     .header__content {
         max-width: 1300px;
         width: 100%;
@@ -80,7 +80,7 @@ export const HeaderContainer = styled.header`
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                margin-top: 5%;
+                margin-top: 15%;
 
                 a {
                     font-size: 1.4rem;

@@ -57,12 +57,12 @@ function Header() {
                     <BiX />
                 </div>
                 <nav>
-                    <Link onClick={() => setOpenMenu(false)} href="/">Home</Link>
-                    <Link onClick={() => setOpenMenu(false)} href="/#equipamentos">Equipamentos</Link>
-                    <Link onClick={() => setOpenMenu(false)} href="/#sobre">Quem Somos</Link>
-                    <Link onClick={() => setOpenMenu(false)} href="/#servicos">Serviços</Link>
-                    <Link onClick={() => setOpenMenu(false)} href="/blog">Blog</Link>
-                    <Link onClick={() => setOpenMenu(false)} href="/#contato">Contato</Link>
+                    <Link onPointerEnter={() => setOpenMenu(false)} href="/">Home</Link>
+                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#equipamentos">Equipamentos</Link>
+                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#sobre">Quem Somos</Link>
+                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#servicos">Serviços</Link>
+                    <Link onPointerEnter={() => setOpenMenu(false)} href="/blog">Blog</Link>
+                    <Link onPointerEnter={() => setOpenMenu(false)} href="/#contato">Contato</Link>
                 </nav>
                 <HeaderSocialMedia>
                     <a href="https://www.instagram.com/ultraformer_loc/" target="_blank"rel="noopener noreferrer">
