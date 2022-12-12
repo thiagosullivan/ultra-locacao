@@ -13,7 +13,7 @@ function Equips() {
         <div className='equips__container'>
           <EquipsCards>
             <div className='equips__img'>
-              <Image src={EquipOne} width={470} height={550} alt="Equipamento" />
+              <Image src={EquipOne} alt="Equipamento" fill="fill" />
             </div>
             <h5>Ultraformer III</h5>
             <p>O Ultraformer III é a última palavra para tratamento da flacidez, contorno corporal e ancoragem muscular no mundo.

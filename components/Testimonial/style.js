@@ -12,8 +12,12 @@ export const TestimonialContainer = styled.section`
         margin-bottom: 5.62rem;
     }
 
+    .carousel-inner {
+        padding: 2rem;
+    }
+
     .testimonial__slider {
-        max-width: 950px;
+        max-width: 900px;
         width: 100%;
         margin: 0 auto;
         
@@ -38,7 +42,7 @@ export const TestimonialContainer = styled.section`
             p {
                 font-family: 'Kanit', sans-serif;
                 font-weight: 300;
-                font-size: 1rem;
+                font-size: 1rem;                
 
                 span {
                     font-weight: 700;
@@ -47,13 +51,53 @@ export const TestimonialContainer = styled.section`
         }
 
         .carousel-control-prev {
-            left: -120px;
+            left: -30px;
+            width: max-content;
         }
         .carousel-control-next {
-            right: -120px;
+            right: -30px;
+            width: max-content;
         }
         .carousel-indicators {
             margin-bottom: -2rem;
+        }
+    }
+
+    @media screen and (max-width: 980px){
+        .testimonial__slider {
+            max-width: 600px;
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+
+    @media screen and (max-width: 650px){
+        .testimonial__slider {
+            max-width: 400px;
+
+            p {
+                text-align: justify;
+            }
+        }
+
+        .carousel-inner {
+            padding: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 550px){
+        padding: 2rem 1rem;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .carousel {
+            width: 85%;
+            margin: 0 auto;
         }
     }
 `

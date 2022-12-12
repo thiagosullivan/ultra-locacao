@@ -45,6 +45,12 @@ export const ServicesContainer = styled.section`
             flex-wrap: wrap;
             margin-bottom: 5.62rem;
         }
+
+        @media screen and (max-width: 620px){
+            h2 {
+                font-size: 2rem;
+            }
+        }
     }
 
 `

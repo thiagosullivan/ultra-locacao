@@ -24,6 +24,17 @@ export const PriceContainer = styled.section`
             justify-items: center;
             gap: 1rem;
         }
+
+        @media screen and (max-width: 550px){
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .price__cards__container {
+                grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+            }
+        }
     }
 `;
 
@@ -98,6 +109,15 @@ export const PriceCard = styled.div`
                 border: 1px solid ${({theme}) => theme.secondary};
                 color: ${({theme}) => theme.secondary};
             }
+        }
+    }
+
+    @media screen and (max-width: 550px){
+        max-width: 300px;
+        
+        a {
+            padding: 0 3rem !important;
+            font-size: 1rem !important;
         }
     }
 `;

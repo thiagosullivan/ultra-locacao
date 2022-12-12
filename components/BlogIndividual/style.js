@@ -4,7 +4,7 @@ export const BlogIndividualContainer = styled.section`
     max-width: 1300px;
     width: 100%;
     margin: 3rem auto;
-    padding-top: 2rem;
+    padding: 2rem 1rem;
     border-top: 3px solid ${({theme}) => theme.primary};
 
 

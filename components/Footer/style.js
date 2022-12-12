@@ -15,9 +15,10 @@ export const FooterContainer = styled.footer`
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
+            gap: 20px;
 
             .footer__col1 {
-                max-width: 290px;
+                max-width: 270px;
                 width: 100%;
 
                 p {
@@ -184,6 +185,25 @@ export const FooterContainer = styled.footer`
                             color: ${({theme}) => theme.secondary};
                         }
                     }
+                }
+            }
+
+            @media screen and (max-width: 980px){
+                flex-direction: column;
+                align-items: center;
+
+                .footer__col1 {
+                    p {
+                        text-align: justify;
+                    }
+                }
+
+                .footer__col2 {
+                    text-align: center;
+                    margin: 1rem 0;
+                }
+                .footer__col3 {
+                    text-align: center;
                 }
             }
         }

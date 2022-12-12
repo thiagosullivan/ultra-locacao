@@ -13,25 +13,6 @@ export const AboutUsContainer = styled.section`
         margin: 0 auto;
         position: relative;
         padding: 11rem 1rem;
-        
-        /* h2 {
-            font-family: 'Kanit', sans-serif;
-            font-size: 7.5rem;
-            line-height: 0.7;
-            color: ${({theme}) => theme.secondary};
-            text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.4);
-            font-weight: bold;
-            text-align: right;
-            position: absolute;
-            z-index: 1;
-
-            span {
-                font-family: 'Kanit', sans-serif;
-                font-size: 6.25rem;
-                line-height: 0.7;
-                font-weight: 400;
-            }
-        } */
 
         p {
             font-family: 'Kanit', sans-serif;
@@ -68,6 +49,13 @@ export const AboutUsContainer = styled.section`
             p {
                 text-align: justify;
             }
+        }
+    }
+
+    @media screen and (max-width: 980px){
+        .about__content {
+            display: flex;
+            justify-content: center;
         }
     }
 `

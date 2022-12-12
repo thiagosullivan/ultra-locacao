@@ -31,6 +31,16 @@ export const EquipsContainer = styled.section`
         gap: 5rem;
     }
     
+    @media screen and (max-width: 620px) {
+        padding: 0 1rem;
+        
+        h2 {
+            font-size: 2rem;
+        }
+        .equips__container {
+            grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+        }
+    }
 `
 
 export const EquipsCards = styled.div`
@@ -53,5 +63,22 @@ export const EquipsCards = styled.div`
     .equips__img {
         border-radius: 20px;
         overflow: hidden;
+        width: 470px;
+        height: 550px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+
     }
+    
+    @media screen and (max-width: 600px){
+        
+        width: 320px;
+
+        .equips__img {
+            width: 270px;
+            height: 350px;
+        }
+    }
+
 `

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import AuthorOne from '../../assets/author-1.png'
@@ -19,14 +20,14 @@ function Testimonial() {
                 <Carousel.Item>
                     <p>&ldquo;Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta. Sed quis dui elit. Pellentesque habitant morbi tristique senectus et netus et male Sed vestibulum orci&ldquo;</p>
                     <div className='autor__testimonial'>
-                        <img src="https://i.picsum.photos/id/182/60/60.jpg?hmac=PC6Ff1xqU7q_DqJyOofEEiG3mwFGMF5Lf6RfMUXdiJI" />
+                        <Image src="https://i.picsum.photos/id/182/60/60.jpg?hmac=PC6Ff1xqU7q_DqJyOofEEiG3mwFGMF5Lf6RfMUXdiJI" width={60} height={60} alt="Graham Cracker" />
                         <p>Graham Cracker, <span>Designer at Colorlib</span></p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <p>&ldquo;Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta. Sed quis dui elit. Pellentesque habitant morbi tristique senectus et netus et male Sed vestibulum orci&ldquo;</p>
                     <div className='autor__testimonial'>
-                        <img src="https://i.picsum.photos/id/182/60/60.jpg?hmac=PC6Ff1xqU7q_DqJyOofEEiG3mwFGMF5Lf6RfMUXdiJI" />
+                        <Image src="https://i.picsum.photos/id/182/60/60.jpg?hmac=PC6Ff1xqU7q_DqJyOofEEiG3mwFGMF5Lf6RfMUXdiJI" width={60} height={60} alt="Graham Cracker" />
                         <p>Graham Cracker, <span>Designer at Colorlib</span></p>
                     </div>
                 </Carousel.Item>

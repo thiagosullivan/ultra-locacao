@@ -93,4 +93,18 @@ export const BlogHomeCard = styled.div`
             color: ${({theme}) => theme.primary};
         }
     }
+
+    @media screen and (max-width: 550px){
+        flex-direction: column;
+        align-items: center;
+
+        .blog__home__txt {
+            width: 100%;
+            margin: 0 1rem;
+
+            a {
+                margin: 0 auto;
+            }
+        }
+    }
 `

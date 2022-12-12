@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import HomeSlider from '../components/HomeSlider'
 import Loader from '../components/Loader'
 import Price from '../components/Price'
+import ScrollToTop from '../components/ScrollToTop'
 import Services from '../components/ServicesSection'
 import Testimonial from '../components/Testimonial'
 import { getAllPosts } from '../lib/dato-cms'
@@ -28,6 +29,7 @@ export default function Home({posts}) {
         <Price />
         <Testimonial />
         <BlogHome posts={posts} />
+        <ScrollToTop />
       </main>
 
       <Footer />

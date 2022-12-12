@@ -101,13 +101,16 @@ function Footer() {
                             <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <Link href="/">Equipamentos</Link>
+                            <Link href="/#equipamentos">Equipamentos</Link>
                         </li>
                         <li>
-                            <Link href="/">Quem Somos</Link>
+                            <Link href="/#sobre">Quem Somos</Link>
                         </li>
                         <li>
-                            <Link href="/">Serviços</Link>
+                            <Link href="/#servicos">Serviços</Link>
+                        </li>
+                        <li>
+                            <Link href="/blog">Blog</Link>
                         </li>
                     </ul>
                 </div>
