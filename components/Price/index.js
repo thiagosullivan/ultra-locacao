@@ -10,7 +10,7 @@ function Price() {
             <div className='price__cards__container'>
               <PriceCard>
                 <h4>Aluguel</h4>
-                <p>R$ 400,00</p>
+                <p>Consulte Conosco</p>
                 <div className='price__bottom'>
                   <p>O valor de aluguel é referente ao período de 4 horas e já incluso entrega e retirada do equipamento em sua clínica.</p>
 
@@ -19,7 +19,7 @@ function Price() {
               </PriceCard>
               <PriceCard>
                 <h4>Disparos</h4>
-                <p>A partir de R$ 1,80</p>
+                <p>Consulte Conosco</p>
                 <div className='price__bottom'>
                   <ul>
                     <p>O valor por disparo é de acordo com a ponteira utilizada e segue a seguinte tabela:</p>
