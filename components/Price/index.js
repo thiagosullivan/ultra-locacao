@@ -23,8 +23,8 @@ function Price() {
                 <div className='price__bottom'>
                   <ul>
                     <p>O valor por disparo é de acordo com a ponteira utilizada e segue a seguinte tabela:</p>
-                    <li>Ponteiras 1,5 I 2 I 3 I 4,5, R$ 2,50 por disparo</li>
-                    <li>Ponteiras 6 I 9 I 13 R$ 1,80 por disparo</li>
+                    <li>Ponteiras 1,5 I 2 I 3 I 4,5, &#40;consulte valor&#41; por disparo</li>
+                    <li>Ponteiras 6 I 9 I 13 &#40;consulte valor&#41; por disparo</li>
                   </ul>
 
                   <a href="https://api.whatsapp.com/send?phone=5543984151977&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20loca%C3%A7%C3%A3o%20do%20Ultraformer%20III">Reservar Data</a>
