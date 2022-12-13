@@ -71,7 +71,7 @@ export const PriceCard = styled.div`
             font-size: 1rem;
             margin-bottom: 1rem;
             font-weight: 300;
-            min-height: 130px;
+            min-height: 155px;
         }
         ul {
             padding-left: 0;
