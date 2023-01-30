@@ -10,9 +10,10 @@ import Price from '../components/Price'
 import ScrollToTop from '../components/ScrollToTop'
 import Services from '../components/ServicesSection'
 import Testimonial from '../components/Testimonial'
-import { getAllPosts } from '../lib/dato-cms'
+import { getAllDepos, getAllPosts } from '../lib/dato-cms'
 
-export default function Home({posts}) {
+export default function Home({posts, depos}) {
+  console.log(depos)
   
   return (
     <div id="home">
@@ -27,7 +28,7 @@ export default function Home({posts}) {
         <Services />
         <Equips />
         <Price />
-        <Testimonial />
+        <Testimonial depos={depos} />
         <BlogHome posts={posts} />
         <ScrollToTop />
       </main>
@@ -39,10 +40,12 @@ export default function Home({posts}) {
 
 export const getStaticProps = async () => {
   const posts = await getAllPosts();
+  const depos = await getAllDepos();
 
   return {
     props: {
-      posts: posts || []
+      posts: posts || [],
+      depos: depos || []
     },
     revalidate: 5,
   }

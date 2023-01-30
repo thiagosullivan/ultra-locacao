@@ -83,7 +83,7 @@ export const BlogHomeCard = styled.div`
         a {
             background-color: ${({theme}) => theme.secondary};
             padding: 1rem;
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 600;
             display: block;
             max-width: 120px;
